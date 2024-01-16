@@ -1,12 +1,9 @@
-package com.example.recyclerview.adapter
+package com.example.recyclerviewMovieHome.adapter
 
 import android.view.View
-import android.widget.ImageView
-import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.navigationcomponent.R
 import com.example.navigationcomponent.databinding.ItemMovieBinding
-import com.example.recyclerview.Movie
+import com.example.recyclerviewMovieHome.Movie
 import com.squareup.picasso.Picasso
 
 class MovieViewHolder(view:View) : RecyclerView.ViewHolder(view) {

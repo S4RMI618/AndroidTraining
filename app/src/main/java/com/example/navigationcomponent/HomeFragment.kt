@@ -6,12 +6,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
-import com.example.navigationcomponent.databinding.ActivityMainBinding
 import com.example.navigationcomponent.databinding.FragmentHomeBinding
-import com.example.recyclerview.Movie
-import com.example.recyclerview.MovieProvider
-import com.example.recyclerview.adapter.MovieAdapter
+import com.example.recyclerviewMovieHome.MovieProvider
+import com.example.recyclerviewMovieHome.adapter.MovieAdapter
 
 class HomeFragment : Fragment() {
 

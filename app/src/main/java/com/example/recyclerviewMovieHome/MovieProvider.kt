@@ -1,4 +1,4 @@
-package com.example.recyclerview
+package com.example.recyclerviewMovieHome
 
 class MovieProvider {
     companion object {

@@ -1,10 +1,10 @@
-package com.example.recyclerview.adapter
+package com.example.recyclerviewMovieHome.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.navigationcomponent.R
-import com.example.recyclerview.Movie
+import com.example.recyclerviewMovieHome.Movie
 
 class MovieAdapter(private val movieList:List<Movie>) : RecyclerView.Adapter<MovieViewHolder>() {
 

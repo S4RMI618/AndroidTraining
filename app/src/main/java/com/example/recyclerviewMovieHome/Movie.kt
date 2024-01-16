@@ -1,4 +1,4 @@
-package com.example.recyclerview
+package com.example.recyclerviewMovieHome
 
 data class Movie(
     val movieName:String,

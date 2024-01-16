@@ -7,8 +7,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.navigationcomponent.databinding.FragmentHomeBinding
-import com.example.recyclerview.MovieProvider
-import com.example.recyclerview.adapter.MovieAdapter
+import com.example.recyclerviewMovieHome.MovieProvider
+import com.example.recyclerviewMovieHome.adapter.MovieAdapter
 
 class SearchFragment : Fragment() {
 
@@ -25,7 +25,7 @@ class SearchFragment : Fragment() {
         val recyclerView = binding.recyclerMovie
         recyclerView.layoutManager = LinearLayoutManager(requireContext(), LinearLayoutManager.VERTICAL, false)
         recyclerView.adapter = MovieAdapter(MovieProvider.movieList)
-
+        
         return root
     }
 
